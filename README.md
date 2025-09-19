@@ -1,7 +1,6 @@
 # API Automation Challenge 
 
-Automated tests for REST APIs (e.g., **Account** and **Bookstore**) using **Playwright APIRequestContext** with **Cucumber.js (BDD)**.  
-Focus areas: token generation, auth‑protected endpoints, negative cases, and payload/schema validation.
+This repository contains an automated testing solution for **Account** & **Bookstore** endpoints (DemoQA API).
 
 ---
 
@@ -10,7 +9,6 @@ Focus areas: token generation, auth‑protected endpoints, negative cases, and p
 * **Automation Framework:** [Playwright](https://playwright.dev/)
 * **BDD Framework:** [Cucumber.js](https://cucumber.io/docs/cucumber/api/?lang=javascript)
 * **Language:** JavaScript / Node.js
-* **Assertions:** Playwright Test Library (`@playwright/test`)
 
 ---
 
