@@ -15,16 +15,16 @@ Focus areas: token generation, auth‑protected endpoints, negative cases, and p
 ---
 
 ## Project Structure
-
-├── features/               # feature files
+.
+├── features
 │   ├── account.feature
 │   └── bookstore.feature
-├── steps/                  # step definitions
+├── steps
 │   ├── account.steps.js
 │   ├── bookstore.steps.js
 │   └── common.steps.js
-├── support/                # context
-│   └── world.js
+└── support
+    └── world.js
 
 ---
 
