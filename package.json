@@ -1,0 +1,16 @@
+{
+  "name": "api-automation",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:account": "cucumber-js -p account",
+    "test:bookstore": "cucumber-js -p bookstore",
+    "test:tag": "cucumber-js --tags"
+  },
+  "author": "Djenifer Drehmer",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.0",
+    "@playwright/test": "^1.46.0",
+    "dotenv": "^16.4.0"
+  }
+}
